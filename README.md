@@ -1,11 +1,17 @@
-# Python Flask app on Azure App Service Web
+microblog
+=========
 
-This is a minimal sample app that demonstrates how to run a Python Flask application on Azure App Service Web.
+A decently featured microblogging web application written in Python and Flask that I'm developing in my Flask Mega-Tutorial series that begins [here](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
 
-This repository can directly be deployed to Azure App Service.
+Installation
+------------
 
-For more information, please see the [Python on App Service Quickstart docs](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-get-started-python).
+The tutorial referenced above explains how to setup a virtual environment with all the required modules.
 
-# Contributing
+The sqlite database must also be created before the application can run, and the `db_create.py` script takes care of that. See the [Database tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database) for the details.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Running
+-------
+
+To run the application in the development web server just execute `run.py` with the Python interpreter from the flask virtual environment.
+
